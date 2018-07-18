@@ -16,7 +16,7 @@ import UIKit
 
 //class RotateArray{
     func rotate(_ nums: inout [Int], _ k: Int) {
-        var k = k % nums.count
+        let k = k % nums.count
         
         reverse(&nums, 0, nums.count - 1)
         reverse(&nums, 0, k - 1)

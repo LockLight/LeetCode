@@ -3,5 +3,6 @@
     <pages>
         <page name='removeDuplicatesFromSortArray'/>
         <page name='RotateArray'/>
+        <page name='SellStocks'/>
     </pages>
 </playground>
