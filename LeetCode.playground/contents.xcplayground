@@ -4,5 +4,6 @@
         <page name='removeDuplicatesFromSortArray'/>
         <page name='RotateArray'/>
         <page name='SellStocks'/>
+        <page name='ContainsDuplicate'/>
     </pages>
 </playground>
