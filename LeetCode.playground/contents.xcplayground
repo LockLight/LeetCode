@@ -6,5 +6,6 @@
         <page name='SellStocks'/>
         <page name='ContainsDuplicate'/>
         <page name='SingleNumber'/>
+        <page name='IntersectTwoArray'/>
     </pages>
 </playground>

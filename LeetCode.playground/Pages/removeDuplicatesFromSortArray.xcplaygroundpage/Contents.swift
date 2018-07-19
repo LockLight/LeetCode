@@ -15,7 +15,7 @@ func removeDuplicates(_ nums:inout[Int]) -> Int{
 //    }
 //    return index+1
     if (nums.count <= 1){return nums.count}
-    
+
     var slow = 0
     for fast in 0..<nums.count{
         if nums[slow] != nums[fast] {
@@ -24,7 +24,8 @@ func removeDuplicates(_ nums:inout[Int]) -> Int{
         }
     }
     return slow + 1
+//    return Set(nums).count
 }
 
-var array = [0,1,1,13,13]
+var array = [0,1,1,13,13,2]
 removeDuplicates(&array)
