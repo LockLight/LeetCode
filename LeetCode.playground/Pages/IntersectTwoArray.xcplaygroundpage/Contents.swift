@@ -3,29 +3,26 @@
 
 import Foundation
 
+
 func intersect(_ nums1: [Int], _ nums2: [Int]) -> [Int] {
-//    return [Int](Set<Int>(nums1).intersection(nums2))
-    var intersects = [Int]()
-    var record = [Int]()
-    
-    for i in 0..<nums1.count{
-        let temp = nums1[i]
-        for j in 0..<nums2.count{
-            if temp == nums2[j]{
-                var exist = false
-                if record.contains(j){
-                    exist = true
-                    break
-                }
-                if !exist {
-                    record.append(j)
-                    intersects.append(temp)
-                    break
-                }
-            }
+//    return Array(Set(nums1).intersection(Set(nums2)))
+    let nums1 = nums1.sorted()
+    let nums2 = nums2.sorted()
+    var returnNums = [Int]()
+    var i = 0,j = 0
+    while i < nums1.count && j < nums2.count {
+        if nums1[i] == nums2[j] {
+            returnNums.append(nums1[i])
+            i += 1
+            j += 1
+        } else if nums1[i] < nums2[j] {
+            i += 1
+        } else {
+            j += 1
         }
     }
-    return intersects
+
+    return returnNums
 }
 
 var array1 = [1,2,2,3]
@@ -36,8 +33,10 @@ intersect(array1, array2)
 func intersectSortArray(_ nums1:[Int], _ nums2:[Int]) -> [Int]{
     var intersects = [Int]()
     
+//    var frequencies = Dictionary(nums1.map { ($0, 1) } , uniquingKeysWith: +)
+    
     var i = 0
-    var j = 0
+    var j = 0   
     var k = 0
     
     while i < nums1.count {
