@@ -9,5 +9,6 @@
         <page name='IntersectTwoArray'/>
         <page name='PlusOne'/>
         <page name='moveZeroes'/>
+        <page name='TwoSum'/>
     </pages>
 </playground>

@@ -1,4 +1,5 @@
 //: [Previous](@previous)
+//删除重复元素,计算数组个数
 //思路:保存一个索引，将该索引中的元素与前面的元素进行比较。
 
 import Foundation
