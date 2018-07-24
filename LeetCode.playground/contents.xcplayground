@@ -10,5 +10,6 @@
         <page name='PlusOne'/>
         <page name='moveZeroes'/>
         <page name='TwoSum'/>
+        <page name='isValidSudoku'/>
     </pages>
 </playground>
