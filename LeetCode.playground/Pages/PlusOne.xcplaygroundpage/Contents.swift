@@ -21,3 +21,5 @@ func plusOne(_ digits:[Int]) -> [Int]{
     return [1] + nums
 }
 
+var array = [1,2,3]
+plusOne(array)
