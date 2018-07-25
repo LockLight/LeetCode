@@ -11,5 +11,6 @@
         <page name='moveZeroes'/>
         <page name='TwoSum'/>
         <page name='isValidSudoku'/>
+        <page name='RotateMatrix'/>
     </pages>
 </playground>
