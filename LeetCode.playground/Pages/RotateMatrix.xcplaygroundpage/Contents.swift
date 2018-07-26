@@ -42,7 +42,7 @@ func rotate(_ matrix:inout [[Int]]){
     let maxRows = rows - 1
     let maxCols = maxRows
     
-    for i in 0..<rows{
+    for i in 0..<rows{ 
         for j in 0..<cols{
             matrix[j][maxRows-i] = temp[i][j]
         }

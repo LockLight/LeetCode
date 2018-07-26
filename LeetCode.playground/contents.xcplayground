@@ -13,5 +13,6 @@
         <page name='isValidSudoku'/>
         <page name='RotateMatrix'/>
         <page name='ReseverString'/>
+        <page name='ReverseNum'/>
     </pages>
 </playground>
