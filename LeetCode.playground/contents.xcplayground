@@ -12,5 +12,6 @@
         <page name='TwoSum'/>
         <page name='isValidSudoku'/>
         <page name='RotateMatrix'/>
+        <page name='ReseverString'/>
     </pages>
 </playground>

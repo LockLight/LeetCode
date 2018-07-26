@@ -26,13 +26,26 @@
 import Foundation
 
 func rotate(_ matrix:inout [[Int]]){
-    for i in 0..<matrix.count{
-        for j in (i+1)..<matrix.count{
-            let temp = matrix[i][j]
-            matrix[i][j] = matrix[j][i]
-            matrix[j][i] = temp
+//    for i in 0..<matrix.count{
+//        for j in (i+1)..<matrix.count{
+//            let temp = matrix[i][j]
+//            matrix[i][j] = matrix[j][i]
+//            matrix[j][i] = temp
+//        }
+//        matrix[i].reverse()
+//    }
+    let temp = matrix
+    
+    let rows = matrix.count
+    let cols = rows
+    
+    let maxRows = rows - 1
+    let maxCols = maxRows
+    
+    for i in 0..<rows{
+        for j in 0..<cols{
+            matrix[j][maxRows-i] = temp[i][j]
         }
-        matrix[i].reverse()
     }
 }
 
