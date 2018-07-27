@@ -14,5 +14,6 @@
         <page name='RotateMatrix'/>
         <page name='ReseverString'/>
         <page name='ReverseNum'/>
+        <page name='firstUniqChar'/>
     </pages>
 </playground>
