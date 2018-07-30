@@ -15,5 +15,6 @@
         <page name='ReseverString'/>
         <page name='ReverseNum'/>
         <page name='firstUniqChar'/>
+        <page name='isAnagram'/>
     </pages>
 </playground>

@@ -1,4 +1,4 @@
-//: 给定一个字符串，找到它的第一个不重复的字符，并返回它的索引。如果不存在，则返回 -1。
+//: 给定一个字符串，找到它的第一个不重复的字符，并返回它的索引。如果不存在，则返回 -1。(区分大小写)
 
 import Foundation
 
@@ -6,7 +6,7 @@ func firstUniqChar(_ s:String) -> Int {
     var dict = [Character:Bool]()
     
     for char in s{
-        if let isDuplicate = dict[char]{
+        if dict[char] != nil{
              dict[char] = true
         }else{
              dict[char] = false
@@ -21,5 +21,5 @@ func firstUniqChar(_ s:String) -> Int {
     return -1
 }
 
-var str = "leetcode"
+var str = "Locklight"
 firstUniqChar(str)
