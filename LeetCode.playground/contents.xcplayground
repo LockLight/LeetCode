@@ -17,5 +17,6 @@
         <page name='firstUniqChar'/>
         <page name='isAnagram'/>
         <page name='isPalindrome'/>
+        <page name='Atoi'/>
     </pages>
 </playground>

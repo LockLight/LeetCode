@@ -16,9 +16,9 @@ func isPalindrome(_ s:String) -> Bool{
 //    let str = s.components(separatedBy: CharacterSet.alphanumerics.inverted).joined()
 //    return String(str.lowercased().reversed()) == String(str.lowercased())
     
-    var array = Array(s.lowercased()).filter { (c) -> Bool in
+    var array = Array(s.lowercased()).filter({ (c) -> Bool in
         return c.isValid()
-    }
+    })
     
     var i = 0 , j = array.count - 1
     while i < j {
