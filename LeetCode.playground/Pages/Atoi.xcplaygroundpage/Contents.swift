@@ -2,7 +2,7 @@
 
 import Foundation
 
-func myAtoi(_ str:Sting) -> Int{
+func myAtoi(_ str:String) -> Int{
     let chars = [Character](str)
     
     var result = 0

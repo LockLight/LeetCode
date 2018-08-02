@@ -18,5 +18,6 @@
         <page name='isAnagram'/>
         <page name='isPalindrome'/>
         <page name='Atoi'/>
+        <page name='SubstringOfRange'/>
     </pages>
 </playground>
