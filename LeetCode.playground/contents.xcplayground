@@ -19,5 +19,6 @@
         <page name='isPalindrome'/>
         <page name='Atoi'/>
         <page name='SubstringOfRange'/>
+        <page name='longestCommonPrefix'/>
     </pages>
 </playground>
