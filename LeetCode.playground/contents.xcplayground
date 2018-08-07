@@ -21,5 +21,6 @@
         <page name='SubstringOfRange'/>
         <page name='longestCommonPrefix'/>
         <page name='MergeTwoList'/>
+        <page name='DeleteDuplicatesFromList'/>
     </pages>
 </playground>
