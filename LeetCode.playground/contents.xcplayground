@@ -22,5 +22,6 @@
         <page name='longestCommonPrefix'/>
         <page name='MergeTwoList'/>
         <page name='DeleteDuplicatesFromList'/>
+        <page name='Reverse Linked List'/>
     </pages>
 </playground>
