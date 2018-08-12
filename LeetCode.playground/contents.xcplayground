@@ -23,5 +23,6 @@
         <page name='MergeTwoList'/>
         <page name='DeleteDuplicatesFromList'/>
         <page name='Reverse Linked List'/>
+        <page name='Remove Linked List Elements'/>
     </pages>
 </playground>
