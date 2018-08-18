@@ -24,5 +24,6 @@
         <page name='DeleteDuplicatesFromList'/>
         <page name='Reverse Linked List'/>
         <page name='Remove Linked List Elements'/>
+        <page name='Palindrome Linked List'/>
     </pages>
 </playground>
