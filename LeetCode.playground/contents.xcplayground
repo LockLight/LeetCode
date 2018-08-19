@@ -25,5 +25,6 @@
         <page name='Reverse Linked List'/>
         <page name='Remove Linked List Elements'/>
         <page name='Palindrome Linked List'/>
+        <page name='removeNthFromEnd'/>
     </pages>
 </playground>
